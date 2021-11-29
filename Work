@@ -2,4 +2,14 @@ int strcmp(const char a[],const char b[])
 {
 int i=0;
 while(a[i]!=0)
+returni+1;
+}
+int main()
+{
+char A[10]={'1','2','3','4','5','6','7','8','9',0}
+char B[10]={'1','2','3','4',0,'6','7','8','9',0}
+int j=0;
+while(A[j]!=0)
+std::cout<<j;
+std::cout<<strcmp(A,B)<<strlen(B);
 
